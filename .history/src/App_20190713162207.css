@@ -1,0 +1,12 @@
+
+.App{
+  padding: 50px;
+  background: rgb(55, 55, 55);
+  height: 100vh;
+}
+
+.LeagueInfo{
+  color: white;
+  box-shadow: 0 0 5px 2px #00000047;
+  padding: 20px;
+}

@@ -1,0 +1,30 @@
+
+.App{
+  padding: 50px;
+  background: rgb(55, 55, 55);
+  height: 100%;
+}
+
+.LeagueInfo{
+  margin-top: 20px;
+  color: white;
+  box-shadow: 0 0 5px 2px #00000047;
+  padding: 20px;
+}
+
+.LeagueInfo .img-area{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LeagueInfo img{
+  height: 60px;
+  display: block;
+}
+
+.LeagueInfo img:nth-child(2){
+  height: 100px;
+  margin-left: 15px;
+}
