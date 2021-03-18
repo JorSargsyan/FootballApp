@@ -1,44 +1,41 @@
-
-.App{
+.App {
   padding: 50px;
   min-height: 91vh;
   background-attachment: fixed;
-  background: url("assets/bg.jpg");
+  background: red;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-
-.LeagueInfo{
+.LeagueInfo {
   margin-top: 20px;
   box-shadow: 0 0 5px 2px #00000047;
   padding: 20px;
   background: #d5d5d5ad;
 }
 
-.LeagueInfo h2{
+.LeagueInfo h2 {
   font-size: 25px;
-    color: #0a0a0ac2;
+  color: #0a0a0ac2;
 }
 
-.LeagueInfo .img-area{
+.LeagueInfo .img-area {
   display: flex;
   width: 300px;
   justify-content: space-between;
   align-items: center;
 }
 
-.LeagueInfo img{
+.LeagueInfo img {
   height: 60px;
   display: block;
 }
 
-.LeagueInfo img:nth-child(1){
+.LeagueInfo img:nth-child(1) {
   height: 35px;
 }
 
-.LeagueInfo img:nth-child(2){
+.LeagueInfo img:nth-child(2) {
   width: 100px;
   object-fit: contain;
   margin-left: 15px;
